@@ -5,7 +5,7 @@ URL = "http://localhost:1667/"
 
 original_username = "Molnár Orsolya"
 new_username = str("Kovács Margit")
-fix_email = "my_fix_mail@freemail.hu"
+fix_email = "somebody@freemail.hu"
 non_complying_password = "badpassword"
 complying_password = "GoodPassword1"
 wrong_password = "Wrongpassword"

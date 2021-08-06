@@ -50,3 +50,4 @@ class TestCreateMultipleArticles(object):
                     self.driver.implicitly_wait(5)
                     self.driver.find_element_by_xpath("//button[@class='btn btn-outline-danger btn-sm']//span[1]").click()
                     self.driver.implicitly_wait(5)
+

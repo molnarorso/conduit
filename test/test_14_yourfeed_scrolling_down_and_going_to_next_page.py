@@ -29,3 +29,4 @@ class TestYourFeed(object):
         time.sleep(2)
         self.driver.find_element_by_xpath("//a[normalize-space()='1']").click()
         assert self.driver.find_element_by_xpath("//li[@class='page-item active']").text == "1"
+

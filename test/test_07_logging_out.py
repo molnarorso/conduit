@@ -23,3 +23,4 @@ class TestLogout(object):
         self.driver.find_element_by_xpath("//a[@active-class='active']").click()
         self.driver.implicitly_wait(2)
         assert self.driver.find_element_by_xpath("//a[normalize-space()='Sign in']").is_displayed()
+

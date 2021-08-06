@@ -31,7 +31,6 @@ class TestSignUp(object):
 
     # Test No.4: Signing up using a complying password
     def test_sign_up_with_complying_password(self):
-    # Signing up
         self.driver.find_element_by_xpath("//a[normalize-space()='Sign up']").click()
         self.driver.find_element_by_xpath("//input[@placeholder='Username']").send_keys(original_username)
         self.driver.find_element_by_xpath("//input[@placeholder='Email']").send_keys(fix_email)

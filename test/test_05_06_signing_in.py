@@ -36,3 +36,4 @@ class TestSignIn(object):
         self.driver.find_element_by_xpath("//button[normalize-space()='Sign in']").click()
         time.sleep(2)
         assert self.driver.find_element_by_xpath("//a[@active-class='active']").is_displayed()
+

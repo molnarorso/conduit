@@ -29,3 +29,4 @@ class TestCookies(object):
         self.driver.find_element_by_xpath("//div[normalize-space()='I accept!']").click()
         time.sleep(0.5)
         test_element_does_not_exist_by_xpath(self.driver, "//div[normalize-space()='I accept!']")
+
