@@ -46,3 +46,4 @@ def create_new_article(driver):
     driver.find_element_by_xpath("//input[@placeholder='Enter tags']").send_keys("single")
     driver.find_element_by_xpath("//button[normalize-space()='Publish Article']").click()
     driver.implicitly_wait(2)
+
