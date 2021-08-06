@@ -1,3 +1,6 @@
 [ {
+  "buildOrder" : 6,
+  "reportUrl" : "https://molnarorso.github.io/conduit/6/",
+  "reportName" : "Allure Report with history",
   "data" : { }
 } ]
