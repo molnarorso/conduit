@@ -9,7 +9,7 @@ from data import *
 class TestCreateMultipleArticles(object):
     def setup(self):
         browser_options = Options()
-        browser_options.headless = False
+        browser_options.headless = True
         self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=browser_options)
         self.driver.get(URL)
         self.driver.maximize_window()
@@ -45,7 +45,7 @@ class TestCreateMultipleArticles(object):
             with open('multiple_articles.csv', newline='') as deletion_source_file:
                 deletion_reader = csv.DictReader(deletion_source_file)
                 for row1 in deletion_reader:
-                    self.driver.implicitly_wait(5)
+                    time.sleep(3)
                     self.driver.find_element_by_partial_link_text(row1['Title']).click()
                     self.driver.implicitly_wait(5)
                     self.driver.find_element_by_xpath("//button[@class='btn btn-outline-danger btn-sm']//span[1]").click()

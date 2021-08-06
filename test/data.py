@@ -1,13 +1,11 @@
-import datetime
 from selenium.common.exceptions import NoSuchElementException
-from saved_new_email import *
 import pytest
 
 URL = "http://localhost:1667/"
 
 original_username = "Molnár Orsolya"
 new_username = str("Kovács Margit")
-fix_email = "fix_somebody@freemail.hu"
+fix_email = "my_fix_mail@freemail.hu"
 non_complying_password = "badpassword"
 complying_password = "GoodPassword1"
 wrong_password = "Wrongpassword"
