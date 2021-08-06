@@ -1,3 +1,4 @@
+name: Conduit App
 on:
   push:
     branches: [ master ]
