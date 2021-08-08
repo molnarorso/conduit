@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('driver', <FixtureRequest for <Function test_element_does_not_exist_by_link_text>>)",
+      "children" : [ {
+        "name" : "test_element_does_not_exist_by_link_text",
+        "uid" : "55caed92c3c3f0a2",
+        "parentUid" : "c7bbb063063ae4de7763f926eca3ef69",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628445443051,
+          "stop" : 1628445443051,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c7bbb063063ae4de7763f926eca3ef69"
+    }, {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('driver', <FixtureRequest for <Function test_element_does_not_exist_by_xpath>>)",
+      "children" : [ {
+        "name" : "test_element_does_not_exist_by_xpath",
+        "uid" : "7ee2a254a2e93114",
+        "parentUid" : "291cecb8b8c49fbf0d1bd53d1f22f5c2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628445443058,
+          "stop" : 1628445443058,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "291cecb8b8c49fbf0d1bd53d1f22f5c2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

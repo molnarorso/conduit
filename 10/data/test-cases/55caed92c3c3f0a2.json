@@ -1,0 +1,59 @@
+{
+  "uid" : "55caed92c3c3f0a2",
+  "name" : "test_element_does_not_exist_by_link_text",
+  "fullName" : "test.test_01_02_managing_cookies#test_element_does_not_exist_by_link_text",
+  "historyId" : "bc05f368b565bba762cebb24b2d3a3c3",
+  "time" : {
+    "start" : 1628445443051,
+    "stop" : 1628445443051,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('driver', <FixtureRequest for <Function test_element_does_not_exist_by_link_text>>)",
+  "statusTrace" : "file /home/runner/work/conduit/conduit/test/data.py, line 35\n  def test_element_does_not_exist_by_link_text(driver, link_text):\nE       fixture 'driver' not found\n>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory\n>       use 'pytest --fixtures [testpath]' for help on them.\n\n/home/runner/work/conduit/conduit/test/data.py:35",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_02_managing_cookies"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-740"
+  }, {
+    "name" : "thread",
+    "value" : "3743-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_01_02_managing_cookies"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "55caed92c3c3f0a2.json",
+  "parameterValues" : [ ]
+}

@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Fri Aug 06 09:57:14 GMT 2021","Fri Aug 06 09:57:14 GMT 2021","0","test","test_01_02_managing_cookies","","","","test_element_does_not_exist_by_xpath",""
-"broken","Fri Aug 06 09:57:14 GMT 2021","Fri Aug 06 09:57:14 GMT 2021","0","test","test_01_02_managing_cookies","","","","test_element_does_not_exist_by_link_text",""
-"passed","Fri Aug 06 09:57:24 GMT 2021","Fri Aug 06 09:57:30 GMT 2021","5583","test","test_01_02_managing_cookies","TestCookies","","","test_accepting_cookies",""
-"passed","Fri Aug 06 09:57:17 GMT 2021","Fri Aug 06 09:57:22 GMT 2021","5580","test","test_01_02_managing_cookies","TestCookies","","","test_declining_cookies",""
