@@ -1,0 +1,91 @@
+[ {
+  "uid" : "3d31d44bf02ec307",
+  "name" : "test_sign_up_with_complying_password",
+  "time" : {
+    "start" : 1628448588465,
+    "stop" : 1628448594944,
+    "duration" : 6479
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed9a16aa078da41a",
+  "name" : "test_sign_in_with_correct_password",
+  "time" : {
+    "start" : 1628448602077,
+    "stop" : 1628448604423,
+    "duration" : 2346
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "312d21cff37671d",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1628448606091,
+    "stop" : 1628448606800,
+    "duration" : 709
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5550b7c55027c08a",
+  "name" : "test_add_biography",
+  "time" : {
+    "start" : 1628448614205,
+    "stop" : 1628448615128,
+    "duration" : 923
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df6f42a4338e2986",
+  "name" : "test_change_username",
+  "time" : {
+    "start" : 1628448610095,
+    "stop" : 1628448611049,
+    "duration" : 954
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44fdb1795b9d8ebc",
+  "name" : "test_accepting_cookies",
+  "time" : {
+    "start" : 1628448575500,
+    "stop" : 1628448581099,
+    "duration" : 5599
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cc5c254b6f7f321",
+  "name" : "test_declining_cookies",
+  "time" : {
+    "start" : 1628448567484,
+    "stop" : 1628448573112,
+    "duration" : 5628
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4421d5364459eee",
+  "name" : "test_sign_up_with_noncomplying_password",
+  "time" : {
+    "start" : 1628448583487,
+    "stop" : 1628448586077,
+    "duration" : 2590
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d532844b6ea02fe",
+  "name" : "test_sign_in_with_wrong_password",
+  "time" : {
+    "start" : 1628448597319,
+    "stop" : 1628448599693,
+    "duration" : 2374
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

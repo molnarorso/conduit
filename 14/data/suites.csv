@@ -1,7 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Aug 08 18:36:43 GMT 2021","Sun Aug 08 18:36:45 GMT 2021","2351","test","test_05_06_signing_in","TestSignIn","","","test_sign_in_with_correct_password",""
-"passed","Sun Aug 08 18:36:25 GMT 2021","Sun Aug 08 18:36:27 GMT 2021","2522","test","test_03_04_signing_up","TestSignUp","","","test_sign_up_with_noncomplying_password",""
-"passed","Sun Aug 08 18:36:09 GMT 2021","Sun Aug 08 18:36:14 GMT 2021","5632","test","test_01_02_managing_cookies","TestCookies","","","test_declining_cookies",""
-"passed","Sun Aug 08 18:36:29 GMT 2021","Sun Aug 08 18:36:36 GMT 2021","6458","test","test_03_04_signing_up","TestSignUp","","","test_sign_up_with_complying_password",""
-"passed","Sun Aug 08 18:36:17 GMT 2021","Sun Aug 08 18:36:22 GMT 2021","5608","test","test_01_02_managing_cookies","TestCookies","","","test_accepting_cookies",""
-"passed","Sun Aug 08 18:36:38 GMT 2021","Sun Aug 08 18:36:41 GMT 2021","2380","test","test_05_06_signing_in","TestSignIn","","","test_sign_in_with_wrong_password",""

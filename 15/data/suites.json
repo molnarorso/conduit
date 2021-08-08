@@ -1,0 +1,166 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test",
+    "children" : [ {
+      "name" : "test_01_02_managing_cookies",
+      "children" : [ {
+        "name" : "TestCookies",
+        "children" : [ {
+          "name" : "test_declining_cookies",
+          "uid" : "5cc5c254b6f7f321",
+          "parentUid" : "18326f2ed77e9b8785a82b6527e356e4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628448567484,
+            "stop" : 1628448573112,
+            "duration" : 5628
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_accepting_cookies",
+          "uid" : "44fdb1795b9d8ebc",
+          "parentUid" : "18326f2ed77e9b8785a82b6527e356e4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628448575500,
+            "stop" : 1628448581099,
+            "duration" : 5599
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "18326f2ed77e9b8785a82b6527e356e4"
+      } ],
+      "uid" : "80049767a816d729f7c185c8843c9ae7"
+    }, {
+      "name" : "test_03_04_signing_up",
+      "children" : [ {
+        "name" : "TestSignUp",
+        "children" : [ {
+          "name" : "test_sign_up_with_noncomplying_password",
+          "uid" : "e4421d5364459eee",
+          "parentUid" : "a228ee047efd7b06ef6651d2fbb97615",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628448583487,
+            "stop" : 1628448586077,
+            "duration" : 2590
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_sign_up_with_complying_password",
+          "uid" : "3d31d44bf02ec307",
+          "parentUid" : "a228ee047efd7b06ef6651d2fbb97615",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628448588465,
+            "stop" : 1628448594944,
+            "duration" : 6479
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a228ee047efd7b06ef6651d2fbb97615"
+      } ],
+      "uid" : "409959c43cd96fb5cc8bcf54d896aae0"
+    }, {
+      "name" : "test_05_06_signing_in",
+      "children" : [ {
+        "name" : "TestSignIn",
+        "children" : [ {
+          "name" : "test_sign_in_with_wrong_password",
+          "uid" : "8d532844b6ea02fe",
+          "parentUid" : "8e58f52178030e5f3cceec68580e9fa4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628448597319,
+            "stop" : 1628448599693,
+            "duration" : 2374
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_sign_in_with_correct_password",
+          "uid" : "ed9a16aa078da41a",
+          "parentUid" : "8e58f52178030e5f3cceec68580e9fa4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628448602077,
+            "stop" : 1628448604423,
+            "duration" : 2346
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8e58f52178030e5f3cceec68580e9fa4"
+      } ],
+      "uid" : "602bdc69075c492d55bc50f8b8328970"
+    }, {
+      "name" : "test_07_logging_out",
+      "children" : [ {
+        "name" : "TestLogout",
+        "children" : [ {
+          "name" : "test_logout",
+          "uid" : "312d21cff37671d",
+          "parentUid" : "a98ff0820bd8410da9ebec905c894f65",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628448606091,
+            "stop" : 1628448606800,
+            "duration" : 709
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a98ff0820bd8410da9ebec905c894f65"
+      } ],
+      "uid" : "d14fa3e29afe4b636ced0c8c34a1c850"
+    }, {
+      "name" : "test_08_09_changing_the_settings",
+      "children" : [ {
+        "name" : "TestChangeSettings",
+        "children" : [ {
+          "name" : "test_change_username",
+          "uid" : "df6f42a4338e2986",
+          "parentUid" : "1a087eee02b63cb1a203c12bb95e4433",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628448610095,
+            "stop" : 1628448611049,
+            "duration" : 954
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_add_biography",
+          "uid" : "5550b7c55027c08a",
+          "parentUid" : "1a087eee02b63cb1a203c12bb95e4433",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628448614205,
+            "stop" : 1628448615128,
+            "duration" : 923
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1a087eee02b63cb1a203c12bb95e4433"
+      } ],
+      "uid" : "8cb9cd153aa5968f1611ab840072cab6"
+    } ],
+    "uid" : "ff2b04dbb9c449a4d40723f51d841925"
+  } ],
+  "name" : "suites"
+}
