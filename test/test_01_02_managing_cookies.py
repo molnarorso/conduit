@@ -3,13 +3,6 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 from data import *
-from selenium.common.exceptions import NoSuchElementException
-import pytest
-
-
-def element_does_not_exist_by_xpath(driver, xpath):
-    with pytest.raises(NoSuchElementException):
-        driver.find_element_by_xpath(xpath)
 
 
 class TestCookies(object):
