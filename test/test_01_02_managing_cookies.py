@@ -1,9 +1,10 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
+import time
+from data import *
 from selenium.common.exceptions import NoSuchElementException
 import pytest
-import time
 
 
 def element_does_not_exist_by_xpath(driver, xpath):
