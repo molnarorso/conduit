@@ -3,9 +3,11 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 from data import *
+from selenium.common.exceptions import NoSuchElementException
+import pytest
 
 
-def test_element_does_not_exist_by_xpath(driver, xpath):
+def element_does_not_exist_by_xpath(driver, xpath):
     with pytest.raises(NoSuchElementException):
         driver.find_element_by_xpath(xpath)
 
@@ -27,10 +29,10 @@ class TestCookies(object):
     def test_declining_cookies(self):
         self.driver.find_element_by_xpath("//div[normalize-space()='I decline!']").click()
         time.sleep(0.5)
-        test_element_does_not_exist_by_xpath(self.driver, "//div[normalize-space()='I decline!']")
+        element_does_not_exist_by_xpath(self.driver, "//div[normalize-space()='I decline!']")
 
     # Test No.2: Accepting cookies
     def test_accepting_cookies(self):
         self.driver.find_element_by_xpath("//div[normalize-space()='I accept!']").click()
         time.sleep(0.5)
-        test_element_does_not_exist_by_xpath(self.driver, "//div[normalize-space()='I accept!']")
+        element_does_not_exist_by_xpath(self.driver, "//div[normalize-space()='I accept!']")

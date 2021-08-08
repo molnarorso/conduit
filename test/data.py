@@ -27,12 +27,12 @@ def conduit_login(driver):
     driver.implicitly_wait(2)
 
 
-def test_element_does_not_exist_by_xpath(driver, xpath):
+def element_does_not_exist_by_xpath(driver, xpath):
     with pytest.raises(NoSuchElementException):
         driver.find_element_by_xpath(xpath)
 
 
-def test_element_does_not_exist_by_link_text(driver, link_text):
+def element_does_not_exist_by_link_text(driver, link_text):
     with pytest.raises(NoSuchElementException):
         driver.find_element_by_xpath(link_text)
 
