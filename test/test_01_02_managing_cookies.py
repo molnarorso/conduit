@@ -5,6 +5,11 @@ import time
 from data import *
 
 
+def test_element_does_not_exist_by_xpath(driver, xpath):
+    with pytest.raises(NoSuchElementException):
+        driver.find_element_by_xpath(xpath)
+
+
 class TestCookies(object):
     def setup(self):
         browser_options = Options()
