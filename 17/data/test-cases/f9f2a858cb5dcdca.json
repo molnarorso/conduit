@@ -1,0 +1,78 @@
+{
+  "uid" : "f9f2a858cb5dcdca",
+  "name" : "test_add_biography",
+  "fullName" : "test.test_08_09_changing_the_settings.TestChangeSettings#test_add_biography",
+  "historyId" : "f3e2eee1016e075154c5cc3c73a3a80f",
+  "time" : {
+    "start" : 1628449433237,
+    "stop" : 1628449434180,
+    "duration" : 943
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "de6863d75a50b3e0",
+      "name" : "log",
+      "source" : "de6863d75a50b3e0.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "eac43c788fe07773",
+      "name" : "stderr",
+      "source" : "eac43c788fe07773.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_09_changing_the_settings"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestChangeSettings"
+  }, {
+    "name" : "host",
+    "value" : "fv-az36-633"
+  }, {
+    "name" : "thread",
+    "value" : "3782-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_08_09_changing_the_settings"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9f2a858cb5dcdca.json",
+  "parameterValues" : [ ]
+}
