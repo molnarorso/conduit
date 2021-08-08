@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test.test_01_02_managing_cookies",
+    "children" : [ {
+      "name" : "test_declining_cookies",
+      "uid" : "e360a9ad1007bd00",
+      "parentUid" : "cde9c2e1647b17da47a8d5cd7bc3ad30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628445875349,
+        "stop" : 1628445880931,
+        "duration" : 5582
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_accepting_cookies",
+      "uid" : "6f3651711a1b0a3",
+      "parentUid" : "cde9c2e1647b17da47a8d5cd7bc3ad30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628445883163,
+        "stop" : 1628445888731,
+        "duration" : 5568
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test.test_01_02_managing_cookies"
+  } ],
+  "name" : "packages"
+}
