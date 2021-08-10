@@ -1,0 +1,78 @@
+{
+  "uid" : "8ac3275d2e787e3e",
+  "name" : "test_sign_in_with_correct_password",
+  "fullName" : "test.test_05_06_signing_in.TestSignIn#test_sign_in_with_correct_password",
+  "historyId" : "43299134344711c13a440bd722e1ad6d",
+  "time" : {
+    "start" : 1628585372335,
+    "stop" : 1628585374681,
+    "duration" : 2346
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "282ab09bd5e879f2",
+      "name" : "log",
+      "source" : "282ab09bd5e879f2.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "2b0ec783d17b8a8c",
+      "name" : "stderr",
+      "source" : "2b0ec783d17b8a8c.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_05_06_signing_in"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSignIn"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-744"
+  }, {
+    "name" : "thread",
+    "value" : "3769-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_05_06_signing_in"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ac3275d2e787e3e.json",
+  "parameterValues" : [ ]
+}
