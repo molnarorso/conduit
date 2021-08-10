@@ -1,0 +1,78 @@
+{
+  "uid" : "64c657b5eb5b3b68",
+  "name" : "test_sign_up_with_complying_password",
+  "fullName" : "test.test_03_04_signing_up.TestSignUp#test_sign_up_with_complying_password",
+  "historyId" : "c080d56c9baf5a9dd58171281159bdca",
+  "time" : {
+    "start" : 1628584885493,
+    "stop" : 1628584891920,
+    "duration" : 6427
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6b53027d40ae5024",
+      "name" : "log",
+      "source" : "6b53027d40ae5024.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "eae704ee19d3bdc8",
+      "name" : "stderr",
+      "source" : "eae704ee19d3bdc8.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_04_signing_up"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSignUp"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-744"
+  }, {
+    "name" : "thread",
+    "value" : "3909-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_03_04_signing_up"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64c657b5eb5b3b68.json",
+  "parameterValues" : [ ]
+}
